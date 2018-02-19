@@ -147,10 +147,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="StateMachine\Code4Life\Code4LifeStates.h" />
+    <ClInclude Include="StateMachine\Robot.h" />
     <ClInclude Include="StateMachine\StateMachine.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="StateMachine\StateMachine.cpp" />
+    <ClCompile Include="StateMachine\Code4Life\Code4LifeStates.cpp" />
+    <ClCompile Include="StateMachine\Robot.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitignore" />

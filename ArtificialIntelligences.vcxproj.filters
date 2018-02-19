@@ -16,15 +16,27 @@
     <Filter Include="StateMachine">
       <UniqueIdentifier>{8a1be34a-804d-4afb-ba0e-a0f0931a7e35}</UniqueIdentifier>
     </Filter>
+    <Filter Include="StateMachine\Code4Life">
+      <UniqueIdentifier>{2db1ac9c-132f-42ab-94b2-bc432ff6848e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="StateMachine\StateMachine.h">
       <Filter>StateMachine</Filter>
     </ClInclude>
+    <ClInclude Include="StateMachine\Robot.h">
+      <Filter>StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="StateMachine\Code4Life\Code4LifeStates.h">
+      <Filter>StateMachine\Code4Life</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="StateMachine\StateMachine.cpp">
+    <ClCompile Include="StateMachine\Robot.cpp">
       <Filter>StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="StateMachine\Code4Life\Code4LifeStates.cpp">
+      <Filter>StateMachine\Code4Life</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
